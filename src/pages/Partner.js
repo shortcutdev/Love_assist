@@ -92,19 +92,19 @@ function Partner() {
       }, 
         {'img':'https://a-static.besthdwallpaper.com/the-letter-of-timeless-love-wallpaper-2048x768-25141_85.jpg',
         'desc':'Expressions for Every Moment',
-        'nav' : 'tips'
+        'nav' : 'letters'
       },
         {'img':'https://www.franksonnenbergonline.com/wp-content/uploads/2023/10/image_how-to-impress-everyone-you-meet.jpg',
         'desc':'Strategies for Impressing with Grace',
-        'nav' : 'tips'
+        'nav' : 'impress'
       },
         {'img':'https://img.poemhunter.com/i/poem_image/21/41431121_poem_85.jpg',
         'desc':'A Celebration of Poetic Expression',
-        'nav' : 'tips'
+        'nav' : 'poem'
       },
         {'img':'https://marketplace.canva.com/EAFd7nH2KyA/1/0/1600w/canva-minimal-modern-you-are-enough-quote-desktop-wallpaper-uR1_BcMWcH4.jpg',
         'desc':'Short, Sweet, and Memorable',
-        'nav' : 'tips'
+        'nav' : 'catchlines'
       },
     ]
 
