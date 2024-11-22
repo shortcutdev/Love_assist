@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-function Tips() {
+const UPoem = () => {
   return (
     <>
     <Navbar></Navbar>
-    
     </>
   )
 }
 
-export default Tips
+export default UPoem

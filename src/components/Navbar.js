@@ -70,10 +70,10 @@ function Navbar(reload) {
                           <Nav.Link onClick={() => { navigate('/'); }}>Home</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                          <Nav.Link eventKey="link-2">Saved Letters</Nav.Link>
+                          <Nav.Link onClick={() => { navigate('/savedLetters'); }} eventKey="link-2">Saved Letters</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                          <Nav.Link eventKey="link-3">Saved Poems</Nav.Link>
+                          <Nav.Link onClick={() => { navigate('/savedPoem'); }} eventKey="link-3">Saved Poems</Nav.Link>
                       </Nav.Item>   
             </div>      
                   
@@ -126,7 +126,7 @@ function Navbar(reload) {
         <Offcanvas.Body style={{ overflowY: 'auto' }}>
           
         <Offcanvas.Body >
-        <Card >
+        <Card onClick={() => { navigate('/randomLoveTips'); }}>
           <Card.Img variant="top" className='w-[160px] h-[140px]' src={'https://experiencecamps.org/wp-content/uploads/2024/02/hearts.jpg'} />
           <Card.Body>
             <Card.Title>Unlocking Cupid's Code: Random Love Tips</Card.Title>
@@ -141,7 +141,7 @@ function Navbar(reload) {
         </Offcanvas.Body>
 
         <Offcanvas.Body>
-        <Card >
+        <Card onClick={() => { navigate('/showLoyalty'); }}>
           <Card.Img variant="top" className='w-[160px] h-[140px]' src={'https://miro.medium.com/v2/resize:fit:1400/0*61kT5xGQjLwDArB1.png'} />
           <Card.Body>
             <Card.Title>Show Loyalty: Building Trust and Connection</Card.Title>
@@ -158,7 +158,7 @@ function Navbar(reload) {
 
 
         <Offcanvas.Body>
-        <Card >
+        <Card onClick={() => { navigate('/expressFeelings'); }}>
           <Card.Img variant="top" src={'https://static.vecteezy.com/system/resources/previews/016/185/453/non_2x/smile-icons-set-cartoon-emoji-set-smiley-faces-with-different-emotions-illustration-vector.jpg'} />
           <Card.Body>
             <Card.Title>Expressing Feelings: The Language of Love</Card.Title>
